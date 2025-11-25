@@ -59,7 +59,7 @@ function App() {
               <option value="EUR">EUR - Euro</option>
               <option value="GBP">GBP - British Pound Sterling</option>
               <option value="JPY">JPY - Japanese Yen</option>
-              <option value="AUD">AUD - Australian DOllar</option>
+              <option value="AUD">AUD - Australian Dollar</option>
               <option value="CAD">CAD - Canadian Dollar</option>
               <option value="CNY">CNY - Chinese Yuan</option>
               <option value="INR">INR - Indian Rupee</option>
@@ -68,13 +68,13 @@ function App() {
             </select>
           </div>
           <div className='input-container'>
-            <label htmlFor="toCurrency">Form Currency:</label>
+            <label htmlFor="toCurrency">To Currency:</label>
             <select id="toCurrency" value={toCurrency} onChange={handleToCurrencyChange}>
               <option value="USD">USD - United States Doller</option>
               <option value="EUR">EUR - Euro</option>
               <option value="GBP">GBP - British Pound Sterling</option>
               <option value="JPY">JPY - Japanese Yen</option>
-              <option value="AUD">AUD - Australian DOllar</option>
+              <option value="AUD">AUD - Australian Dollar</option>
               <option value="CAD">CAD - Canadian Dollar</option>
               <option value="CNY">CNY - Chinese Yuan</option>
               <option value="INR">INR - Indian Rupee</option>
